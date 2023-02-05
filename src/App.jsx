@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import Main from "./components/main/main-content"
 import Navbar from "./components/nav/nav"
-import SocialFooter from "./components/social-profile/social-profie"
+import SocialFooter from "./components/social-profile/social-profile"
 import './App.css'
 import profilePic from "./images/profile-pic.jpeg"
 

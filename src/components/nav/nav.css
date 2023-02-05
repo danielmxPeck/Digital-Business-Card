@@ -7,9 +7,9 @@ nav {
   margin: 10;
 }
 
-.profile-row{
+.profile-row {
   margin: 0;
-  
+  color: #f3bf99;
 }
 
 .btnContainer {
@@ -19,7 +19,8 @@ nav {
   column-gap: 2rem;
 }
 
-.btnContainer > button {
+.btnContainer > a,
+button {
   width: 12rem;
   height: 3.5rem;
   border-radius: 12px;

@@ -1,0 +1,11 @@
+footer{
+    display: flex; 
+    gap: 40px;
+    font-size: 36px;
+    height: 70px;
+    background-color: #161619;
+    color: #918E9B;
+    place-content: center;
+    place-items: center;
+}
+
