@@ -15,5 +15,9 @@ main > p{
 
 
 
-
-
+@media only screen and (max-width: 600px) {
+    main > h2, p{
+        margin: 0 15px 15px;
+    }
+  }
+  
