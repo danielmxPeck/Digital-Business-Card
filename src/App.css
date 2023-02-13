@@ -1,5 +1,11 @@
 #root {
   text-align: center;
+  color: white;
+  font-family: Inter;
+}
+
+body{
+  background-color: #23252C;
 }
 
 .card {
@@ -12,16 +18,25 @@
 
 
 .profilePic{
-  height: fit-content;
-  width: fit-content;
   border-radius: 10px;
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:700px) {
   .profilePic{
     width: 80%;
     height: 85%;
+    border: 3px solid red;
+    margin-top: 1rem;
   }
-
 }
+
+@media only screen and (max-width:400px){
+  .profilePic{
+    width: 80%;
+    border: 3px solid yellow;
+    overflow-y: auto;
+    margin-top: 1rem;
+  }
+}
+
