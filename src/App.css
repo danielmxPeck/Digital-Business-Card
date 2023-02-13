@@ -26,7 +26,7 @@ body{
   .profilePic{
     width: 80%;
     height: 85%;
-    border: 3px solid red;
+    //border: 3px solid red;
     margin-top: 1rem;
   }
 }
@@ -34,7 +34,7 @@ body{
 @media only screen and (max-width:400px){
   .profilePic{
     width: 80%;
-    border: 3px solid yellow;
+    //border: 3px solid yellow;
     overflow-y: auto;
     margin-top: 1rem;
   }
